@@ -1,0 +1,41 @@
+.site-title{
+    background: url("img/Background-image.png");
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content:center;
+    .site{
+     text-align: center;
+     padding-top: 10rem;
+     color:#ffffff;
+
+     ;
+    }
+    h3,
+    h1{
+        cursor: pointer;
+    }
+    h1{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .btn{
+        background-color:$hover-color;
+        padding: .8rem 3rem;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 2rem;
+        color:#ffffff;
+        cursor: pointer;
+        border: none;
+        margin-top: .8rem;
+        transition: all .4s ease-in-out;
+        &:hover{
+            background-color:$bg-color;
+            color:$midnight;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@font-face{
+    font-family: abel;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: abel;
+    background:$bg-color;
+}

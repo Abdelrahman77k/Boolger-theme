@@ -1,0 +1,52 @@
+.main-blog{
+    background: url('../img/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    .blog-post{
+        padding-top: 6rem;
+
+    }
+    .blog-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: 3rem 2rem;
+        box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    }
+    .blog-title{
+        padding: 1.2rem 0;
+        h3{
+           color:$hover-color;
+           font-weight: 700;
+
+        }
+        .btn-blog{
+            padding: .7rem 2rem;
+            background-color: $hover-color;
+            font-size: 1rem;
+            border-radius: 2rem;
+            color: $white-color;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+            color: $midnight;
+            transition: all .3s ease-in-out;
+                &:hover{
+                    background-color: $midnight;
+                    color: #fff;
+                }
+
+        }
+        span{
+            display: block;
+            font-weight: bold;
+            color: $midnight;
+            font-size: 17px;
+            margin-top: 4px;
+
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.footer {
+    background-color: $bg-color;
+    border-top: 1px solid $light-color;
+    padding: 1.5rem 0;
+    font-family: abel;
+    color: $light-color;
+    position: relative;
+
+    .about {
+        p {
+            font-size: 18px;
+            font-weight: bold;
+
+        }
+    }
+
+    .news {
+        input {
+            background: none;
+            color: #fff;
+            padding: .4rem;
+            border: 1px solid $light-color;
+
+        }
+
+        span {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            margin-left: .6rem;
+            background: $light-color;
+        }
+
+        i {
+            color: #fff;
+        }
+    }
+
+    .instagram {
+        img {
+            width: 100%;
+            border: 1px solid $light-color;
+        }
+
+        .row-img {
+            margin-top: .4rem;
+        }
+    }
+
+    .folllow {
+        ul {
+            margin-top: 3rem;
+            padding: 0;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                margin-left: .8rem;
+
+                i {
+                    font-size: 25px;
+                    transition: all .3s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .up-window {
+        position: absolute;
+        top: 5rem;
+        right: 2rem;
+        background-color: $gary-color;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background: $hover-color;
+        }
+
+        i {
+            font-size: 20px;
+            margin-top: .4rem;
+            color: $bg-color;
+            cursor: pointer;
+        }
+    }
+}
+
+@media(max-width:750px) {
+    .footer {
+        text-align: center;
+    }
+
+    .instagram {
+        display: none;
+
+    }
+
+    .up-window {
+        position: absolute;
+        top: .5rem;
+    }
+}
